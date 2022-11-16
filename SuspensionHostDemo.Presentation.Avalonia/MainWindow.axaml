@@ -1,0 +1,20 @@
+<reactiveUi:ReactiveWindow x:TypeArguments="viewModels:MainViewModel"
+                           xmlns="https://github.com/avaloniaui"
+                           xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                           xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+                           xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+                           xmlns:reactiveUi="http://reactiveui.net"
+                           xmlns:viewModels="clr-namespace:SuspensionHostDemo.Presentation.ViewModels;assembly=SuspensionHostDemo.Presentation"
+                           mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+                           x:Class="SuspensionHostDemo.Presentation.Avalonia.MainWindow"
+                           Title="SuspensionHostDemo.Presentation.Avalonia">
+    <StackPanel Spacing="16"
+                Margin="16">
+        <TextBox Name="FirstNameTextBox"
+                 Text="{Binding FirstName}"
+                 Watermark="Firstname" />
+        <TextBox Name="LastNameTextBox"
+                 Text="{Binding LastName}"
+                 Watermark="Lastname" />
+    </StackPanel>
+</reactiveUi:ReactiveWindow>
