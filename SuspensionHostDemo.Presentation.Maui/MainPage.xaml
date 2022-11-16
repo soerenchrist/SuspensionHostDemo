@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewModels="clr-namespace:SuspensionHostDemo.Presentation.ViewModels;assembly=SuspensionHostDemo.Presentation"
+             x:DataType="viewModels:MainViewModel"
+             x:Class="SuspensionHostDemo.Presentation.Maui.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="16"
+            Padding="16"
+            VerticalOptions="Center">
+
+            <Entry Placeholder="Firstname"
+                   Text="{Binding FirstName}" />
+            <Entry Placeholder="Lastname"
+                   Text="{Binding LastName}" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
