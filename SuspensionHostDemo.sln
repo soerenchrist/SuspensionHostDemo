@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SuspensionHostDemo.Presenta
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SuspensionHostDemo.Presentation.Maui", "SuspensionHostDemo.Presentation.Maui\SuspensionHostDemo.Presentation.Maui.csproj", "{5D89C14F-FC55-4EE0-880A-44166C45B88F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuspensionHostDemo.Presentation.Wpf", "SuspensionHostDemo.Presentation.Wpf\SuspensionHostDemo.Presentation.Wpf.csproj", "{7EBCA804-989A-454C-9B89-D58C27F16613}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -28,6 +30,10 @@ Global
 		{5D89C14F-FC55-4EE0-880A-44166C45B88F}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
 		{5D89C14F-FC55-4EE0-880A-44166C45B88F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5D89C14F-FC55-4EE0-880A-44166C45B88F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EBCA804-989A-454C-9B89-D58C27F16613}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EBCA804-989A-454C-9B89-D58C27F16613}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EBCA804-989A-454C-9B89-D58C27F16613}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EBCA804-989A-454C-9B89-D58C27F16613}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
